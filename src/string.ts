@@ -3,6 +3,6 @@ export function toTitleCase(text: string, onlyFirst = true) {
 		? text[0].toUpperCase() + text.substring(1).toLowerCase()
 		: text
 				.split(" ")
-				.map(toTitleCase)
+				.map(text => toTitleCase(text))
 				.join(" ");
 }
