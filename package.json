@@ -1,19 +1,19 @@
 {
-	"name": "@badosz/utils",
-	"version": "1.1.1",
-	"description": "Utility functions",
-	"repository": "https://github.com/badosz0/utils/",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "Bartosz Krol <m@badosz.com>",
-	"license": "MIT",
-	"publishConfig": {
-		"access": "public"
-	},
-	"devDependencies": {
-		"@types/node": "^17.0.5"
-	}
+  "name": "@badosz/utils",
+  "version": "1.1.1",
+  "description": "Utility functions",
+  "repository": "https://github.com/badosz0/utils/",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bartosz Krol <m@badosz.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5"
+  }
 }
