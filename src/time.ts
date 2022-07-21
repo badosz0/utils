@@ -102,3 +102,8 @@ export class Time {
     return this.date.getTime();
   }
 }
+
+const b = Time.in(Time.Units.DAY * 4).add(10, 'minutes').add(6969).isWeekend();
+const c = new Time().add(4, 'months').subtract(10, 'days').getDate();
+const d = Time.add(Time.in(4, 'years'), 10, 'milliseconds').add(Time.Units.DAY).equals(Time.now());
+
