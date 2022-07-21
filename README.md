@@ -8,6 +8,12 @@
 $ npm install @badosz/utils
 ```
 
+OR
+
+```bash
+$ yarn add @badosz/utils
+```
+
 ## License
 
 [MIT](https://tldrlegal.com/license/mit-license)
